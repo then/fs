@@ -1,7 +1,5 @@
-function Fs() {}
-Fs.prototype = require('fs')
-var fs = new Fs()
-  , Promise = require('promise')
+var fs = Object.create(require('fs'))
+var Promise = require('promise')
 
 module.exports = exports = fs
 for (var key in fs)
