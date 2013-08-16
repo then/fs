@@ -1,0 +1,24 @@
+{
+  "name": "then-fs",
+  "version": "1.0.0",
+  "description": "promised FS",
+  "main": "index.js",
+  "dependencies": {
+    "promise": ">=3.2 <4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/then/then-fs.git"
+  },
+  "keywords": [
+    "promise",
+    "then",
+    "fs",
+    "core"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/then/then-fs/issues"
+  }
+}
