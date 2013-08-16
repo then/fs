@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/then/then-fs.git"
+    "url": "git://github.com/then/fs.git"
   },
   "keywords": [
     "promise",
@@ -19,6 +19,6 @@
   "author": "Nathan Zadoks",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/then/then-fs/issues"
+    "url": "https://github.com/then/fs/issues"
   }
 }
