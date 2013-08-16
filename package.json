@@ -20,5 +20,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/then/fs/issues"
+  },
+  "devDependencies": {
+    "bash-color": "0.0.3"
+  },
+  "scripts": {
+    "test": "node test/index.js"
   }
 }
