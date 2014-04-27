@@ -9,4 +9,18 @@ for (var key in fs)
       || key.match(/^create/) 
       || key.match(/^(un)?watch/)
       ))
-    fs[key] = Promise.denodeify(fs[key])
+  add(key)
+
+function add(key) {
+  var original = fs[key]
+  if (key !== 'exists')
+    fs[key] = Promise.denodeify(original)
+  else
+    fs[key] = function() {
+      var args = [].slice.call(arguments)
+      return new Promise(function(resolve, reject) {
+        args.push(resolve)
+        original.apply(null, args)
+      })
+    }
+}
