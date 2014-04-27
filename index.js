@@ -1,3 +1,4 @@
+'use strict';
 var fs = Object.create(require('fs'))
 var Promise = require('promise')
 
