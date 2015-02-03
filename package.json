@@ -1,6 +1,6 @@
 {
   "name": "then-fs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "promised FS",
   "main": "index.js",
   "dependencies": {
