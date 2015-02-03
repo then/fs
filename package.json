@@ -4,7 +4,7 @@
   "description": "promised FS",
   "main": "index.js",
   "dependencies": {
-    "promise": ">=3.2 <6"
+    "promise": ">=3.2 <7"
   },
   "repository": {
     "type": "git",
