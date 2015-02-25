@@ -4,7 +4,7 @@ var Promise = require('promise')
 var fs = require('../')
 
 var failed = false
-var ready = Promise.from(null)
+var ready = Promise.resolve(null)
 function action(fn, message) {
   ready = ready.then(function () {
     return fn()
