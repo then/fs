@@ -4,8 +4,8 @@
   Promised version of the node.js `fs` module.
   All non-callback-taking functions of fs are simply inherited.
 
-[![Build Status](https://travis-ci.org/then/fs.png?branch=master)](https://travis-ci.org/then/fs)
-[![Dependency Status](https://gemnasium.com/then/fs.png)](https://gemnasium.com/then/fs)
+[![Build Status](https://img.shields.io/travis/then/fs/master.svg)](https://travis-ci.org/then/fs)
+[![Dependency Status](https://img.shields.io/david/then/fs.svg)](https://david-dm.org/then/fs)
 [![NPM version](https://badge.fury.io/js/then-fs.png)](http://badge.fury.io/js/then-fs)
 
 ## Installation
